@@ -1,0 +1,23 @@
+{
+  "name": "@runnerty/executor-script",
+  "version": "1.0.0",
+  "description": "Runnerty module: script executor",
+  "author": "Coderty",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/runnerty/executor-script.git"
+  },
+  "keywords": [
+    "runnerty",
+    "executor",
+    "script",
+    "js script"
+  ],
+  "bugs": {
+    "url": "https://github.com/runnerty/executor-script/issues"
+  },
+  "homepage": "https://github.com/runnerty/executor-script#readme",
+  "dependencies": {}
+}
