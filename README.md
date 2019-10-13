@@ -4,7 +4,7 @@
 
 ```json
 {
-  "id": "scriptdefault",
+  "id": "script_default",
   "type": "@runnerty-executor-script"
 }
 ```
@@ -33,6 +33,8 @@
   "args": { "my_const": "Y", "my_key": "@GV(MY_KEY)" }
 }
 ```
+
+### if you create a function that returns string, integer or boolean it will be automatically saved in `PROCESS_EXEC_DATA_OUTPUT`.
 
 ### if you create a function that returns an object or array it will be automatically (JSON.stringify) saved in `PROCESS_EXEC_[KEY_NAME]`:
 
